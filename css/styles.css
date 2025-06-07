@@ -1,0 +1,513 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  color: #677788;
+  margin: 0;
+}
+
+.nav-menu {
+  display: flex;
+  width: 471px;
+  height: 57px;
+  padding: 6px 14px;
+  gap: 30px;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  width: 311px;
+  height: 17px;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-list li a {
+  /* font-family: Inter; */
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  text-decoration: none;
+  color: #677788;
+}
+
+.buy-now {
+  display: flex;
+  justify-content: center;
+  width: 102px;
+  height: 45px;
+  /* font-family: Inter; */
+  font-weight: 700;
+  font-size: 12px;
+  padding: 15px 25px;
+  line-height: 100%;
+  background-color: #2476ff;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  gap: 20px;
+}
+
+.front-logo {
+  width: 154.9px;
+  height: 46.1px;
+  gap: 10px;
+}
+
+.hero-section {
+  display: flex;
+  width: 100%;
+  height: 446px;
+  padding: 40px 30px 0px 30px;
+  background-image: url(/assets/bg/background-top.svg);
+}
+
+.hero-section .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  padding-bottom: 60px;
+  gap: 30px;
+}
+
+.hero-section .left .title {
+  display: flex;
+  flex-direction: column;
+  height: 172px;
+  width: 334px;
+  gap: 11px;
+}
+
+.hero-section .left .title h1 {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 100%;
+  margin: 0;
+}
+
+.hero-section .left .actions {
+  display: flex;
+  align-items: center;
+  height: 48px;
+  gap: 24px;
+}
+
+.hero-section .left .actions .learn-more {
+  width: 78px;
+  height: 17px;
+  color: #677788;
+  text-decoration: none;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+}
+
+.play-video {
+  display: flex;
+  width: 137px;
+  height: 48px;
+  gap: 8px;
+  padding-top: 15px;
+  padding-right: 25px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  border-radius: 30px;
+  background: #2476ff;
+  color: white;
+  border: none;
+  font-size: 12px;
+  font-family: Inter;
+}
+
+.fa-circle-play {
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.hero-section .right {
+  position: relative;
+  width: 482px;
+  height: 406px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.logo img {
+  width: 48px;
+  height: 48px;
+}
+
+.logo {
+  background-color: white;
+}
+
+.hero-section .right .asana {
+  box-shadow: 0px 3px 13px 0px #00000040;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  top: 10px;
+  left: 380px;
+  padding: 16px;
+}
+
+.hero-section .right .calendar {
+  box-shadow: 0px 3px 13px 0px #00000040;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  top: 310px;
+  left: 364px;
+  padding: 16px;
+}
+
+.hero-section .right .weave {
+  box-shadow: 0px 3px 13px 0px #00000040;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  top: 172px;
+  left: 262px;
+  padding: 16px;
+}
+
+.hero-section .right .paypal {
+  box-shadow: 0px 3px 13px 0px #00000040;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  top: 172px;
+  left: 44px;
+  padding: 16px;
+}
+
+.hero-section .right .atlassian {
+  box-shadow: 0px 3px 13px 0px #00000040;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  top: 10px;
+  left: 175px;
+  padding: 16px;
+}
+
+.hero-section .right .google-ads {
+  box-shadow: 0px 3px 13px 0px #00000040;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  top: 290px;
+  left: 155px;
+  padding: 10px;
+}
+
+.hero-section .right .google {
+  box-shadow: 0px 3px 13px 0px #00000040;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  top: 10px;
+  left: 64px;
+  padding: 10px;
+}
+
+.hero-section .right .google-ads img {
+  width: 40px;
+  height: 40px;
+}
+
+.hero-section .right .google img {
+  width: 40px;
+  height: 40px;
+}
+
+h3 {
+  width: auto;
+  height: 31px;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 100%;
+  text-align: center;
+  margin: 0px;
+}
+
+.why-front-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 354px;
+  padding: 0px 30px 80px;
+  gap: 40px;
+}
+
+.why-front-section .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 89px;
+  gap: 10px;
+}
+
+.why-front-section .features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 145px;
+  padding: 0px 34px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 26px 0px;
+  width: 224px;
+  height: 145px;
+}
+
+.why-front-section .bullet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  gap: 4px;
+}
+
+.why-front-section .bullet-left-one {
+  width: 83px;
+  height: 1px;
+}
+
+.why-front-section .bullet-left-two {
+  width: 83px;
+  height: 1px;
+  background-color: #e6e9f2;
+}
+
+.why-front-section .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  gap: 10px;
+  border-radius: 50%;
+  padding: 10px;
+  background: #ecf2ff;
+}
+
+.why-front-section .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #0066ff;
+}
+
+.why-front-section .bullet-right-one {
+  width: 83px;
+  height: 1px;
+  background-color: #e6e9f2;
+}
+
+.why-front-section .bullet-right-two {
+  width: 83px;
+  height: 1px;
+}
+
+.why-front-section h3 {
+  width: 100%;
+  height: 19px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+}
+
+.pricing-section {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  padding-bottom: 120px;
+  gap: 60px;
+  height: 692px;
+}
+
+.pricing-section .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 60px;
+}
+
+.plan-features img {
+  width: 50px;
+  height: 50px;
+}
+
+.pricing-table {
+  display: flex;
+  height: 452px;
+  gap: 30px;
+}
+
+.plan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 370px;
+  padding: 40px;
+  gap: 50px;
+  border: 1px solid #e2e2e2;
+  box-shadow: 0px 10px 20px 0px #00000026;
+}
+
+.plan-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 290px;
+  height: 194px;
+  gap: 30px;
+}
+
+.plan-header .about-price {
+  width: 290px;
+  height: 72px;
+  text-align: start;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
+.price {
+  display: flex;
+  width: 114px;
+  height: 61px;
+  gap: 7px;
+}
+
+.fifty-nine {
+  display: flex;
+  align-items: flex-end;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 100%;
+  color: black;
+}
+
+.per-mo {
+  display: flex;
+  align-items: flex-end;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 20px;
+  line-height: 100%;
+}
+
+.divider {
+  width: 290px;
+  height: 1px;
+  background-color: #8d8d8d;
+}
+
+.plan-footer {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.row-one {
+  display: flex;
+  align-items: center;
+  height: 219px;
+  gap: 10px;
+}
+
+.row-two {
+  display: flex;
+  height: 219px;
+  gap: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.row-one .content p {
+  width: 237;
+  height: 66;
+  text-align: start;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0%;
+}
+
+.plan-feature-item {
+  /* width: 277px; */
+  height: 219px;
+  gap: 20px;
+  padding: 20px;
+  border-width: 1px;
+}

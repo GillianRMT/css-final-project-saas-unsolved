@@ -117,6 +117,7 @@
           </div>
         </div>
       </div>
+      <!-- /* ---------- PRICING SECTION ---------- */ -->
       <div class="pricing-section">
         <div class="title">
           <h2>Pricing</h2>
@@ -193,23 +194,29 @@
           </div>
         </div>
       </div>
+      <!-- /* ---------- HIRE US SECTION ---------- */ -->
       <div class="hire-us-section">
         <div class="left">
           <div class="top">
             <div class="hire-us-title">
-              <h4 class="hire-us">Hire Us</h4>
-              <p class="quote">
-                "I love front! I love the fact that I have total creative
-                freedom..."
-              </p>
+              <div class="htitle">
+                <h4 class="hire-us">Hire Us</h4>
+                <p class="whatever">
+                  Whatever your goal - we will get you there
+                </p>
+              </div>
             </div>
+            <p class="quote">
+              “ I love front! I love the ease of use, I love the fact that I
+              have total creative freedom...”
+            </p>
           </div>
           <div class="bottom">
             <div class="person">
               <h4 class="name">Charlotte Moore</h4>
               <p class="about-person">Head of Commercials, Slack</p>
             </div>
-            <img src="/assets/images/man_one.jpg" alt="" class="person" />
+            <img src="/assets/images/man_one.jpg" alt="" />
           </div>
         </div>
         <div class="right">
@@ -218,7 +225,7 @@
               <p class="form-description">
                 Fill out the form and we'll be in touch as soon as possible
               </p>
-              <div class="first-last-name">
+              <div class="first-last-name form-group">
                 <input
                   type="text"
                   name="first-name"
@@ -234,7 +241,7 @@
                   required
                 />
               </div>
-              <div class="email">
+              <div class="email form-group">
                 <input
                   type="email"
                   name="email"
@@ -243,52 +250,47 @@
                   required
                 />
               </div>
-              <div class="dropdowns">
+              <div class="dropdowns form-group">
                 <div class="budget">
                   <select name="budget" id="budget">
-                    <option value="budget" disabled>Budget</option>
-                    <option value="dog">Dog</option>
-                    <option value="cat">Cat</option>
-                    <option value="hamster">Hamster</option>
-                    <option value="parrot">Parrot</option>
-                    <option value="spider">Spider</option>
-                    <option value="goldfish">Goldfish</option>
+                    <option value="budget">Budget</option>
+                    <option value="under-50">Under $50</option>
+                    <option value="50-100">$50-$100</option>
+                    <option value="100-150">$100-$150</option>
+                    <option value="150-200">$150-$200</option>
+                    <option value="over-200">Over $200</option>
                   </select>
                 </div>
                 <div class="country">
                   <select name="country" id="country">
-                    <option value="country" disabled>Country</option>
-                    <option value="dog">Dog</option>
-                    <option value="cat">Cat</option>
-                    <option value="hamster">Hamster</option>
-                    <option value="parrot">Parrot</option>
-                    <option value="spider">Spider</option>
-                    <option value="goldfish">Goldfish</option>
+                    <option value="country">Country</option>
+                    <option value="Liechtenstein">Liechtenstein</option>
+                    <option value="Barbados">Barbados</option>
+                    <option value="Andorra">Andorra</option>
+                    <option value="Luxembourg">Luxembourg</option>
+                    <option value="Montenegro">Montenegro</option>
                   </select>
                 </div>
               </div>
               <textarea
                 id="story"
                 name="story"
-                rows="5"
+                rows="7"
                 cols="33"
                 placeholder="Tell us more about your project, needs, and timeline, please..."
               ></textarea>
               <div class="yes-and-privacy">
                 <div class="yes">
-                  <input type="checkbox" id="yes" name="yes" />
-                  <label for="yes">
+                  <div class="checkbox">
+                    <input type="checkbox" id="yes" name="yes" />
+                  </div>
+                  <label class="about-yes" for="yes">
                     Yes, I'd like to receive occasional marketing emails from
                     Front. I have the right to opt out at any time.
+                    <div class="privacy-policy">
+                      <a href="">View privacy policy</a>
+                    </div>
                   </label>
-                </div>
-                <div class="privacy-policies">
-                  <div class="privacy-policy-one">
-                    <a href="">View privacy policy</a>
-                  </div>
-                  <div class="privacy-policy-two">
-                    <a href="">View privacy policy</a>
-                  </div>
                 </div>
               </div>
             </div>
@@ -304,56 +306,62 @@
         <div class="front-logo">
           <img src="/assets/logos/logo-front.svg" alt="" />
         </div>
-        <div class="address">
-          <p>
-            <i class="fa-solid fa-location-arrow"></i> 153 Williamson Plaza,
-            Maggieberg
-          </p>
+        <div class="nav">
+          <div class="address">
+            <p>
+              <i class="fa-solid fa-location-arrow"></i> 153 Williamson Plaza,
+              Maggieberg
+            </p>
+          </div>
+          <div class="phone">
+            <p>
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:+10621099222">+1 (062) 109-9222</a>
+            </p>
+          </div>
         </div>
-        <div class="phone">
-          <p>
-            <i class="fa-solid fa-phone"></i>
-            <a href="tel:+10621099222">+1 (062) 109-9222</a>
-          </p>
+      </div>
+      <div class="lists">
+        <div class="company list">
+          <h4>Company</h4>
+          <ul>
+            <li>About</li>
+            <li class="career">
+              Career
+              <div class="hiring">We're hiring</div>
+            </li>
+            <li>Blog</li>
+            <li>Customers</li>
+            <li>Hire us</li>
+          </ul>
         </div>
-      </div>
-      <div class="company">
-        <h4>Company</h4>
-        <ul>
-          <li>About</li>
-          <li>
-            Career
-            <div class="hiring">We're hiring</div>
-          </li>
-          <li>Blog</li>
-          <li>Customers</li>
-          <li>Hire us</li>
-        </ul>
-      </div>
-      <div class="Features">
-        <h4>Features</h4>
-        <ul>
-          <li>Press</li>
-          <li>Release notes</li>
-          <li>Integrations</li>
-          <li>Pricing</li>
-        </ul>
-      </div>
-      <div class="documentation">
-        <h4>Documentation</h4>
-        <ul>
-          <li>Support</li>
-          <li>Docs</li>
-          <li>Status</li>
-          <li>API Reference</li>
-          <li>Tech Requirements</li>
-        </ul>
-      </div>
-      <div class="resources">
-        <h4>Resources</h4>
-        <div class="help"><i class="fa-solid fa-circle-info"></i> Help</div>
-        <div class="your-account">
-          <i class="fa-solid fa-circle-user"></i> Your Account
+        <div class="Features list">
+          <h4>Features</h4>
+          <ul>
+            <li>Press</li>
+            <li>Release notes</li>
+            <li>Integrations</li>
+            <li>Pricing</li>
+          </ul>
+        </div>
+        <div class="documentation list">
+          <h4>Documentation</h4>
+          <ul>
+            <li>Support</li>
+            <li>Docs</li>
+            <li>Status</li>
+            <li>API Reference</li>
+            <li>Tech Requirements</li>
+          </ul>
+        </div>
+        <div class="resources list">
+          <h4>Resources</h4>
+          <div class="nav">
+            <div class="help"><i class="fa-solid fa-circle-info"></i> Help</div>
+            <div class="your-account">
+              <i class="fa-solid fa-circle-user"></i> Your Account
+            </div>
+          </div>
         </div>
       </div>
     </footer>

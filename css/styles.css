@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
+body {
+  margin: auto;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -278,6 +282,10 @@ h3 {
   margin: 0px;
 }
 
+/* ----------
+WHY FRONT SECTION
+---------- */
+
 .why-front-section {
   display: flex;
   flex-direction: column;
@@ -372,6 +380,10 @@ h3 {
   line-height: 100%;
   text-align: center;
 }
+
+/* ----------
+PRICING SECTION
+---------- */
 
 .pricing-section {
   display: flex;
@@ -555,4 +567,388 @@ h3 {
   /* padding: 4px 10px; */
   background-color: #01c9a7;
   color: white;
+}
+
+/* ----------
+HIRE US SECTION
+---------- */
+
+.hire-us-section {
+  display: flex;
+  height: 708px;
+  padding: 30px;
+  background-color: #20335b;
+}
+
+.hire-us-section .left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 70px;
+  gap: 60px;
+  flex: 1;
+}
+
+.hire-us-section .left .top {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 370px;
+  height: 180px;
+}
+
+.hire-us-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100px;
+  gap: 34px;
+  border-bottom: 1px solid white;
+}
+
+.htitle {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 65px;
+}
+
+.hire-us {
+  display: flex;
+  justify-content: flex-start;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 26px;
+  margin: 0px;
+  line-height: 100%;
+  text-align: center;
+  color: white;
+}
+
+.whatever {
+  display: flex;
+  justify-content: flex-start;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #677788;
+}
+
+.quote {
+  display: flex;
+  text-align: start;
+  height: 48px;
+  font-family: Inter;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+}
+
+.hire-us-section .bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  height: 123px;
+  width: 208px;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 43px;
+  padding-right: 20px;
+  gap: 4px;
+}
+
+.name {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  color: white;
+  margin: 0px;
+  text-align: start;
+}
+
+.about-person {
+  width: 189px;
+  height: 17px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  color: #677788;
+  text-align: start;
+}
+
+.hire-us-section .left .bottom img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.hire-us-section .right {
+  display: flex;
+  height: 648px;
+  gap: 10px;
+  flex: 1;
+}
+
+.hire-us-section .right form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 30px;
+  gap: 37px;
+  background-color: white;
+}
+
+.form-data {
+  display: flex;
+  flex-direction: column;
+  width: 392px;
+  height: 506px;
+  gap: 20px;
+}
+
+.form-description {
+  font-family: SF Pro;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: black;
+}
+
+.form-group {
+  display: flex;
+  gap: 20px;
+}
+
+.form-group input {
+  display: flex;
+  height: 44px;
+  border-radius: 5px;
+  border: 1px solid #e6e8f2;
+  padding: 0px 10px;
+  gap: 10px;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 24px;
+  color: black;
+}
+
+.email {
+  width: 392px;
+}
+
+.form-group div select {
+  width: 186px;
+  height: 44px;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-right: 16px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border-width: 1px;
+}
+
+.yes-and-privacy {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 5px;
+}
+
+.yes {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.checkbox {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.checkbox input {
+  width: 25px;
+  height: 28px;
+  padding-top: 4px;
+}
+
+.about-yes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 22px;
+  color: #828282;
+}
+
+.privacy-policy a {
+  font-family: SF Pro;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  text-decoration: none;
+  border-bottom: 1px dashed;
+  color: #677788;
+}
+
+.privacy-policy a:hover {
+  color: #2476ff;
+}
+
+form .actions {
+  display: flex;
+  height: 45px;
+  width: 125px;
+  gap: 24px;
+}
+
+form .actions button {
+  display: flex;
+  width: 137px;
+  height: 48px;
+  gap: 8px;
+  padding-top: 15px;
+  padding-right: 25px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  border-radius: 30px;
+  background: #2476ff;
+  color: white;
+  border: none;
+  font-size: 12px;
+  font-family: Inter;
+}
+
+/* ----------
+FOOTER SECTION
+---------- */
+
+footer {
+  display: flex;
+  height: 246pxpx;
+  gap: 40px;
+  padding: 40px 30px;
+}
+
+footer .about {
+  display: flex;
+  flex-direction: column;
+  width: 251px;
+  height: 93.76px;
+  gap: 20px;
+}
+
+footer .about .front-logo {
+  width: 100px;
+  height: 29.76px;
+}
+
+footer .about .nav {
+  display: flex;
+  flex-direction: column;
+  width: 251px;
+  height: 44px;
+  gap: 10px;
+}
+
+footer .about .nav div {
+  display: flex;
+  justify-content: flex-start;
+}
+
+footer .about .nav div p {
+  display: flex;
+  gap: 9px;
+}
+
+footer h4 {
+  font-family: SF Pro;
+  font-weight: 860;
+  font-size: 18px;
+  line-height: 100%;
+  color: black;
+  margin: 0px;
+}
+
+footer .lists {
+  display: flex;
+  gap: 49px;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+footer .lists .list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+footer .lists ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 100%;
+  color: #677788;
+}
+
+.career {
+  display: flex;
+  gap: 9px;
+}
+
+.hiring {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 14px;
+  border-radius: 3px;
+  /* padding: 2px 4px; */
+  gap: 10px;
+  background-color: #2576ff;
+  font-family: SF Pro;
+  font-weight: 510;
+  font-size: 8px;
+  line-height: 100%;
+  color: white;
+}
+
+footer .lists .resources .nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer .lists .resources .nav .fa-solid {
+  color: #677788;
 }

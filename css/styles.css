@@ -25,15 +25,15 @@ p {
 
 .nav-menu {
   display: flex;
-  width: 471px;
+  width: auto;
   height: 57px;
-  padding: 6px 14px;
+  /* padding: 6px 14px; */
   gap: 30px;
   align-items: center;
 }
 .nav-list {
   display: flex;
-  width: 311px;
+  width: auto;
   height: 17px;
   list-style: none;
   gap: 20px;
@@ -73,7 +73,9 @@ p {
 
 .hero-section {
   display: flex;
-  width: 100%;
+  justify-content: center;
+  align-items: center;
+  width: auto;
   height: 446px;
   padding: 40px 30px 0px 30px;
   background-image: url(/assets/bg/background-top.svg);
@@ -84,15 +86,16 @@ p {
   flex-direction: column;
   justify-content: center;
   flex: 1;
-  padding-bottom: 60px;
+  /* padding-bottom: 60px; */
   gap: 30px;
 }
 
 .hero-section .left .title {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   height: 172px;
-  width: 334px;
+  width: auto;
   gap: 11px;
 }
 
@@ -145,8 +148,10 @@ p {
 }
 
 .hero-section .right {
+  display: flex;
+  justify-content: center;
   position: relative;
-  width: 482px;
+  width: 100%;
   height: 406px;
   display: flex;
   flex-direction: column;
@@ -174,7 +179,7 @@ p {
   border-radius: 50%;
   top: 10px;
   left: 380px;
-  padding: 16px;
+  /* padding: 16px; */
 }
 
 .hero-section .right .calendar {
@@ -188,7 +193,7 @@ p {
   border-radius: 50%;
   top: 310px;
   left: 364px;
-  padding: 16px;
+  /* padding: 16px; */
 }
 
 .hero-section .right .weave {
@@ -202,7 +207,7 @@ p {
   border-radius: 50%;
   top: 172px;
   left: 262px;
-  padding: 16px;
+  /* padding: 16px; */
 }
 
 .hero-section .right .paypal {
@@ -216,7 +221,7 @@ p {
   border-radius: 50%;
   top: 172px;
   left: 44px;
-  padding: 16px;
+  /* padding: 16px; */
 }
 
 .hero-section .right .atlassian {
@@ -230,7 +235,7 @@ p {
   border-radius: 50%;
   top: 10px;
   left: 175px;
-  padding: 16px;
+  /* padding: 16px; */
 }
 
 .hero-section .right .google-ads {
@@ -244,7 +249,7 @@ p {
   border-radius: 50%;
   top: 290px;
   left: 155px;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .hero-section .right .google {
@@ -258,7 +263,7 @@ p {
   border-radius: 50%;
   top: 10px;
   left: 64px;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .hero-section .right .google-ads img {
@@ -291,7 +296,7 @@ WHY FRONT SECTION
   flex-direction: column;
   align-items: center;
   height: 354px;
-  padding: 0px 30px 80px;
+  /* padding: 0px 30px 80px; */
   gap: 40px;
 }
 
@@ -317,9 +322,9 @@ WHY FRONT SECTION
   display: flex;
   flex-direction: column;
   gap: 24px;
-  padding: 26px 0px;
-  width: 224px;
-  height: 145px;
+  /* padding: 26px 0px; */
+  width: fit-content;
+  /* height: 145px; */
 }
 
 .why-front-section .bullet {
@@ -349,7 +354,7 @@ WHY FRONT SECTION
   height: 30px;
   gap: 10px;
   border-radius: 50%;
-  padding: 10px;
+  /* padding: 10px; */
   background: #ecf2ff;
 }
 
@@ -388,11 +393,11 @@ PRICING SECTION
 .pricing-section {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* align-items: center; */
-  padding-bottom: 120px;
+
+  /* padding-bottom: 120px; */
   gap: 60px;
   height: 692px;
+  /* height: fit-content; */
 }
 
 .pricing-section .title {
@@ -402,6 +407,8 @@ PRICING SECTION
   align-items: center;
   gap: 10px;
   height: 60px;
+  /* height: fit-content; */
+  margin: 0px;
 }
 
 .plan-features img {
@@ -411,8 +418,10 @@ PRICING SECTION
 
 .pricing-table {
   display: flex;
+  /* align-items: center; */
+  margin: 0px auto;
   justify-content: center;
-  height: 452px;
+  height: fit-content;
   padding: 0px 30px;
   gap: 30px;
 }
@@ -421,7 +430,8 @@ PRICING SECTION
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 370px;
+  width: auto;
+  flex: 1;
   padding: 40px;
   gap: 50px;
   border: 1px solid #e2e2e2;
@@ -432,26 +442,26 @@ PRICING SECTION
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 290px;
+  width: fit-content;
   height: 194px;
   gap: 30px;
 }
 
 .plan-header .about-price {
-  width: 290px;
+  width: auto;
   height: 72px;
   text-align: start;
   font-family: Inter;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 0%;
 }
 
 .price {
   display: flex;
-  width: 114px;
-  height: 61px;
+  width: auto;
+  /* height: 61px; */
+  height: fit-content;
   gap: 7px;
 }
 
@@ -475,7 +485,7 @@ PRICING SECTION
 }
 
 .divider {
-  width: 290px;
+  width: 90%;
   height: 1px;
   background-color: #8d8d8d;
 }
@@ -487,13 +497,21 @@ PRICING SECTION
   gap: 10px;
 }
 
+.plan-features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex: 2;
+}
+
 .plan-features h4 {
   margin: 0;
   font-family: Inter;
   font-weight: 700;
   font-size: 18px;
   line-height: 100%;
-  letter-spacing: 0%;
 }
 
 .row-one {
@@ -517,8 +535,8 @@ PRICING SECTION
 }
 
 .content p {
-  width: 237;
-  height: 66;
+  width: auto;
+  height: 66px;
   text-align: start;
   font-family: Inter;
   font-weight: 500;
@@ -530,7 +548,7 @@ PRICING SECTION
   width: 277px;
   height: 219px;
   gap: 20px;
-  padding: 20px;
+  /* padding: 20px; */
   border-width: 1px;
 }
 
@@ -543,7 +561,7 @@ PRICING SECTION
   display: flex;
   align-items: center;
   gap: 10px;
-  width: 192px;
+  width: auto;
   height: 23px;
 }
 
@@ -556,7 +574,6 @@ PRICING SECTION
   font-weight: 700;
   font-size: 12px;
   line-height: 100%;
-  letter-spacing: 0%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -633,7 +650,6 @@ HIRE US SECTION
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 0%;
   color: #677788;
 }
 
@@ -656,7 +672,7 @@ HIRE US SECTION
   align-items: flex-start;
   gap: 20px;
   height: 123px;
-  width: 208px;
+  width: auto;
 }
 
 .person {
@@ -664,7 +680,7 @@ HIRE US SECTION
   flex-direction: column;
   justify-content: flex-start;
   height: 43px;
-  padding-right: 20px;
+  /* padding-right: 20px; */
   gap: 4px;
 }
 
@@ -679,7 +695,7 @@ HIRE US SECTION
 }
 
 .about-person {
-  width: 189px;
+  width: auto;
   height: 17px;
   font-family: Inter;
   font-weight: 500;
@@ -703,7 +719,10 @@ HIRE US SECTION
   display: flex;
   height: 648px;
   gap: 10px;
+  /* padding: 30px; */
   flex: 1;
+  justify-content: center;
+  align-items: center;
 }
 
 .hire-us-section .right form {
@@ -720,7 +739,7 @@ HIRE US SECTION
 .form-data {
   display: flex;
   flex-direction: column;
-  width: 392px;
+  width: auto;
   height: 506px;
   gap: 20px;
 }
@@ -743,7 +762,7 @@ HIRE US SECTION
   height: 44px;
   border-radius: 5px;
   border: 1px solid #e6e8f2;
-  padding: 0px 10px;
+  /* padding: 0px 10px; */
   gap: 10px;
   font-family: SF Pro;
   font-weight: 510;
@@ -752,18 +771,26 @@ HIRE US SECTION
   color: black;
 }
 
+.first-last-name input {
+  width: 100%;
+}
+
 .email {
-  width: 392px;
+  width: 100%;
+}
+
+.form-group div {
+  width: 100%;
 }
 
 .form-group div select {
-  width: 186px;
+  width: 100%;
   height: 44px;
   justify-content: space-between;
-  padding-top: 10px;
-  padding-right: 16px;
-  padding-bottom: 10px;
-  padding-left: 10px;
+  /* padding-top: 10px; */
+  /* padding-right: 16px; */
+  /* padding-bottom: 10px; */
+  /* padding-left: 10px; */
   border-radius: 5px;
   border-width: 1px;
 }
@@ -805,7 +832,8 @@ HIRE US SECTION
   color: #828282;
 }
 
-.privacy-policy a {
+.privacy-policy {
+  width: 120px;
   font-family: SF Pro;
   font-weight: 700;
   font-size: 14px;
@@ -815,19 +843,16 @@ HIRE US SECTION
   color: #677788;
 }
 
-.privacy-policy a:hover {
-  color: #2476ff;
-}
-
 form .actions {
   display: flex;
   height: 45px;
-  width: 125px;
+  width: auto;
   gap: 24px;
 }
 
 form .actions button {
   display: flex;
+  justify-content: center;
   width: 137px;
   height: 48px;
   gap: 8px;
@@ -849,7 +874,7 @@ FOOTER SECTION
 
 footer {
   display: flex;
-  height: 246pxpx;
+  height: 246px;
   gap: 40px;
   padding: 40px 30px;
 }
@@ -857,7 +882,7 @@ footer {
 footer .about {
   display: flex;
   flex-direction: column;
-  width: 251px;
+  width: auto;
   height: 93.76px;
   gap: 20px;
 }
@@ -870,9 +895,13 @@ footer .about .front-logo {
 footer .about .nav {
   display: flex;
   flex-direction: column;
-  width: 251px;
+  width: auto;
   height: 44px;
   gap: 10px;
+}
+
+footer .phone a {
+  text-decoration: none;
 }
 
 footer .about .nav div {
@@ -896,6 +925,13 @@ footer h4 {
 
 footer .lists {
   display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+footer .first,
+footer .second {
+  display: flex;
   gap: 49px;
   width: 100%;
   justify-content: space-evenly;
@@ -918,7 +954,12 @@ footer .lists ul {
   font-weight: 510;
   font-size: 14px;
   line-height: 100%;
+}
+
+footer .list ul li a,
+.resources a {
   color: #677788;
+  text-decoration: none;
 }
 
 .career {

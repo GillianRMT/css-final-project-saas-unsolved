@@ -15,6 +15,10 @@
     transition: 1s ease;
   }
 
+  .plan:hover {
+    box-shadow: 0px 10px 20px 0px #00000026;
+  }
+
   .bars {
     display: none;
   }
@@ -191,8 +195,13 @@
     justify-content: center;
   }
 
+  .hire-us-section .right {
+    height: fit-content;
+  }
+
   form {
     width: 100%;
+    height: fit-content;
   }
 
   .form-data {
@@ -200,7 +209,7 @@
   }
 
   .first-last-name input {
-    width: 50%;
+    width: 100%;
   }
 
   .email {
@@ -300,10 +309,6 @@
     height: auto;
   }
 
-  .pricing-section .plan div {
-    width: auto;
-  }
-
   .row-one,
   .row-two {
     flex-direction: column;
@@ -323,6 +328,10 @@
   .hire-us-section .left .bottom .person {
     justify-content: center;
     align-items: center;
+  }
+
+  .form-data .form-group {
+    flex-direction: column;
   }
 
   .quote {
